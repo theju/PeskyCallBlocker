@@ -2,6 +2,7 @@ PeskyCallBlocker
 ----------------
 
 This is a simple android app that hangs up on commercial and unsolicited numbers.
+This app is not required if you use Android 7.0 and above.
 
 Why did I write this?
 ----------------------
@@ -31,7 +32,7 @@ country code and `14` being the prefix for tele-callers).
 Credits
 -------
 
-I am grateful to [Imran](https://github.com/mipreamble) (awesome android dev, you
+I am grateful to [Imran](https://github.com/imran0101) (awesome android dev, you
 should check out his profile) for the help I received while developing this app.
 
 LICENSE

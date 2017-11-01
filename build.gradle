@@ -1,27 +1,29 @@
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:3.0.0'
     }
 }
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-20'
-    buildToolsVersion '20'
+    compileSdkVersion 'android-27'
+    buildToolsVersion '27.0.0'
 
     buildTypes {
         defaultConfig {
             applicationId "info.thejaswi"
-            minSdkVersion 14
-            targetSdkVersion 20
+            minSdkVersion 24
+            targetSdkVersion 27
             versionCode 1
             versionName "1.0"
         }
         release {
-            runProguard false
+            minifyEnabled false
             proguardFile getDefaultProguardFile('proguard-android.txt')
         }
     }
